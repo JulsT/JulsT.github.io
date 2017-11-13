@@ -3,17 +3,20 @@
       box-sizing: border-box;
       background:url('http://wes.io/hx9M/oh-la-la.jpg') center no-repeat;
       background-size:cover;
-      height:100vh;
+      height: 100vh;
       text-align: center;
       font-family: Futura,"Trebuchet MS",Arial,sans-serif;
+      font-size: 25px;
 
     }
-    *, *:before, *:after {box-sizing: inherit; }
+    *, *:before, *:after {
+      box-sizing: inherit;
+    }
 
     svg {
       fill:white;
       background: rgba(0,0,0,0.1);
-
+      margin-top: 20px;
       border-radius: 50%;
       width:200px;
       margin-bottom: 50px;
@@ -22,6 +25,7 @@
     .wrapper {
       padding: 20px;
       min-width: 350px;
+
       background: rgba(255,255,255,0.95);
       box-shadow: 0 0 0 10px rgba(0,0,0,0.1);
         margin: 0 auto;
@@ -52,9 +56,6 @@
       font-weight: 100;
 
     }
-
-
-
     .plates input {
       display: none;
     }
@@ -70,9 +71,11 @@
 
     .add-items {
         margin-bottom: 10px;
+        width: 100%;
     }
 
     .add-items input {
+      font-size: 35px;
       padding:10px;
       outline:0;
       border:1px solid rgba(0,0,0,0.1);
@@ -81,12 +84,34 @@
         width: 100%;
         display: flex;
         justify-content: space-around;
-        border: 1px solid red;
-    }
-    button{
-        padding:10px;
-        text-align: center;
 
+    }
+    .button{
+      margin: 10px 0;
+      border: 2px solid #6a6a6a;
+      padding: 15px 35px;
+      font: normal 25px/32px Verdana;
+      text-transform: uppercase;
+      color: #6a6a6a;
+      border-radius: 2px;
+      background-color: #ffffff;
+      -webkit-transition:border .25s linear, color .25s linear,background-color .25s linear;
+    transition:border .25s linear, color .25s linear,background-color .25s linear;
+    -webkit-font-smoothing: subpixel-antialiased;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    }
+    .button:hover{
+      color: #fff;
+      background-color: #6a6a6a;
+      border: 2px solid #6a6a6a;
+    }
+    .button:active{
+      color: #fff;
+      background-color: #6a6a6a;
+      border: 2px solid #6a6a6a;
     }
     @media all and (max-width:640px) {
 
