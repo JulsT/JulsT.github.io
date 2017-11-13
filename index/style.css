@@ -25,6 +25,7 @@
     .wrapper {
       padding: 20px;
       width: 550px;
+
       background: rgba(255,255,255,0.95);
       box-shadow: 0 0 0 10px rgba(0,0,0,0.1);
         margin: 0 auto;
@@ -124,7 +125,10 @@
           width: 100%;
           font-size: 15px;
         }
-        .button{
+        .buttons{
           flex-direction: column;
+        }
+        .button{
+          margin: 2px;
         }
     }
