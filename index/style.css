@@ -24,7 +24,7 @@
 
     .wrapper {
       padding: 20px;
-      min-width: 350px;
+      width: 350px;
 
       background: rgba(255,255,255,0.95);
       box-shadow: 0 0 0 10px rgba(0,0,0,0.1);
@@ -71,11 +71,10 @@
 
     .add-items {
         margin-bottom: 10px;
-        width: 100%;
+
     }
 
     .add-items input {
-      font-size: 35px;
       padding:10px;
       outline:0;
       border:1px solid rgba(0,0,0,0.1);
@@ -89,8 +88,8 @@
     .button{
       margin: 10px 0;
       border: 2px solid #6a6a6a;
-      padding: 15px 35px;
-      font: normal 25px/32px Verdana;
+      padding: 15px ;
+      font: normal 10px Verdana;
       text-transform: uppercase;
       color: #6a6a6a;
       border-radius: 2px;
@@ -100,7 +99,6 @@
     -webkit-font-smoothing: subpixel-antialiased;
     text-align: center;
     cursor: pointer;
-    display: inline-block;
     text-decoration: none;
     }
     .button:hover{
@@ -120,5 +118,13 @@
         }
         svg{
             width: 50%;
+        }
+        .add-items input {
+          width: 100%;
+          font-size: 35px;
+        }
+        .button{
+        
+          flex-direction: column;
         }
     }
