@@ -24,7 +24,7 @@
 
     .wrapper {
       padding: 20px;
-      width: 350px;
+      width: 550px;
 
       background: rgba(255,255,255,0.95);
       box-shadow: 0 0 0 10px rgba(0,0,0,0.1);
@@ -78,6 +78,7 @@
       padding:10px;
       outline:0;
       border:1px solid rgba(0,0,0,0.1);
+      font-size: 20px;
     }
     .buttons{
         width: 100%;
@@ -116,15 +117,15 @@
         .wrapper{
            width: 100%;
         }
+
         svg{
             width: 50%;
         }
         .add-items input {
           width: 100%;
-          font-size: 35px;
+          font-size: 15px;
         }
         .button{
-        
           flex-direction: column;
         }
     }
