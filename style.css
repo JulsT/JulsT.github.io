@@ -89,3 +89,9 @@
         text-align: center;
         outline:0;
     }
+@media all and (max-width:640px) {
+
+        .wrapper{
+           width: 100%;
+        }
+    }
